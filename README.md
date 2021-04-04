@@ -20,6 +20,10 @@ Describe the balanced accuracy scores and the precision and recall scores of all
 ### Naive Random Oversampling
 The first model was trained with data sampled using the naive random overampling technique. In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced. Oversampling addresses class imbalance by duplicating or mimicking existing data.
 
+* Balanced Accuracy Score: This model accurately predicts credit risk 62.5% of the time when the minority class is balanced by oversampling.
+* Preciscion: The precision of this model is 0.01 for high risk and 1.00 for low risk applicants. This means that 100% of the predicted low risk applicants are actually low risk, but only 1% of the predicted high risk applicants are actually high risk.
+* Recall: The recall of this model is 0.59 for high risk, and 0.67 for low risk applicants. This means that 59% of high risk applicants are classified as high risk and 67% of low risk applicants are classified as low risk.
+
 ![naive](https://user-images.githubusercontent.com/73972332/113496730-5b7d6980-94b1-11eb-96cb-7b9c99a26ee6.png)
 
 ### SMOTE Oversampling
