@@ -31,6 +31,8 @@ Cluster centroid undersampling is akin to SMOTE. The algorithm identifies cluste
 ![undersampling](https://user-images.githubusercontent.com/73972332/113497339-fb3df600-94b7-11eb-9a68-9da261747c00.png)
 
 ### SMOTEENN (Combination Sampling)
+In the next model, SMOTEENN is applied, instead of SMOTE. As with SMOTE, the minority class is oversampled; however, an undersampling step is added, removing some of each class's outliers from the dataset. The result is that the two classes are separated more cleanly. Resampling with SMOTEENN did not work miracles, but some of the metrics show an improvement over undersampling.
+
 ![smoteenn](https://user-images.githubusercontent.com/73972332/113496732-5e785a00-94b1-11eb-8733-574ef8cbcb58.png)
 
 ### Balanced Random Forest Classifier
