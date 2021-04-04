@@ -14,10 +14,13 @@ The goal of this project is to build a classification model that can predict if 
 ## Results
 Describe the balanced accuracy scores and the precision and recall scores of all six machine learning models.
 ### Naive Random Oversampling
-The first model was trained with data sampled using the naive random overampling technique, which increases sampling from the minority class until both classes are balanced.
+The first model was trained with data sampled using the naive random overampling technique. In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
+
 ![naive](https://user-images.githubusercontent.com/73972332/113496730-5b7d6980-94b1-11eb-96cb-7b9c99a26ee6.png)
 
 ### SMOTE Oversampling
+The synthetic minority oversampling technique (SMOTE) is another oversampling approach to deal with unbalanced datasets. In SMOTE, like random oversampling, the size of the minority is increased. The key difference between the two lies in how the minority class is increased in size. In SMOTE, new instances are interpolated. That is, for an instance from the minority class, a number of its closest neighbors is chosen. Based on the values of these neighbors, new values are created. It's important to note that although SMOTE reduces the risk of oversampling, it does not always outperform random oversampling. Another deficiency of SMOTE is its vulnerability to outliers.
+
 ![smote](https://user-images.githubusercontent.com/73972332/113496731-5d472d00-94b1-11eb-9712-8106465f7c72.png)
 
 ### Cluster Centroids (Undersampling)
