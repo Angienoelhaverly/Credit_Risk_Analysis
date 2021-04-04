@@ -14,7 +14,7 @@ The goal of this project is to build a classification model that can predict if 
 ## Results
 Describe the balanced accuracy scores and the precision and recall scores of all six machine learning models.
 ### Naive Random Oversampling
-The first model was trained with data sampled using the naive random overampling technique. In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced.
+The first model was trained with data sampled using the naive random overampling technique. In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced. Oversampling addresses class imbalance by duplicating or mimicking existing data.
 
 ![naive](https://user-images.githubusercontent.com/73972332/113496730-5b7d6980-94b1-11eb-96cb-7b9c99a26ee6.png)
 
@@ -24,6 +24,10 @@ The synthetic minority oversampling technique (SMOTE) is another oversampling ap
 ![smote](https://user-images.githubusercontent.com/73972332/113496731-5d472d00-94b1-11eb-9712-8106465f7c72.png)
 
 ### Cluster Centroids (Undersampling)
+Undersampling is another technique to address class imbalance. Undersampling takes the opposite approach of oversampling. Instead of increasing the number of the minority class, the size of the majority class is decreased. Undersampling only uses actual data. On the other hand, undersampling involves loss of data from the majority class. Furthermore, undersampling is practical only when there is enough data in the training set. There must be enough usable data in the undersampled majority class for a model to be useful.
+
+Cluster centroid undersampling is akin to SMOTE. The algorithm identifies clusters of the majority class, then generates synthetic data points, called centroids, that are representative of the clusters. The majority class is then undersampled down to the size of the minority class.
+
 ![undersampling](https://user-images.githubusercontent.com/73972332/113497339-fb3df600-94b7-11eb-9a68-9da261747c00.png)
 
 ### SMOTEENN (Combination Sampling)
@@ -36,3 +40,4 @@ The synthetic minority oversampling technique (SMOTE) is another oversampling ap
 ![easy ensemble](https://user-images.githubusercontent.com/73972332/113496734-60dab400-94b1-11eb-92f0-59db83589841.png)
 
 ## Summary
+While resampling can attempt to address imbalance, it does not guarantee better results.
