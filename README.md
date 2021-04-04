@@ -14,10 +14,21 @@ The goal of this project is to build a classification model that can predict if 
 ## Results
 Describe the balanced accuracy scores and the precision and recall scores of all six machine learning models.
 ### Naive Random Oversampling
+![naive](https://user-images.githubusercontent.com/73972332/113496730-5b7d6980-94b1-11eb-96cb-7b9c99a26ee6.png)
+
 ### SMOTE Oversampling
+![smote](https://user-images.githubusercontent.com/73972332/113496731-5d472d00-94b1-11eb-9712-8106465f7c72.png)
+
 ### Cluster Centroids (Undersampling)
+![undersampling](https://user-images.githubusercontent.com/73972332/113497339-fb3df600-94b7-11eb-9a68-9da261747c00.png)
+
 ### SMOTEENN (Combination Sampling)
+![smoteenn](https://user-images.githubusercontent.com/73972332/113496732-5e785a00-94b1-11eb-8733-574ef8cbcb58.png)
+
 ### Balanced Random Forest Classifier
+![balanced random forest](https://user-images.githubusercontent.com/73972332/113496733-5fa98700-94b1-11eb-9d28-504c8249ab26.png)
+
 ### Easy Ensemble AdaBoost Classifier
+![easy ensemble](https://user-images.githubusercontent.com/73972332/113496734-60dab400-94b1-11eb-92f0-59db83589841.png)
 
 ## Summary
