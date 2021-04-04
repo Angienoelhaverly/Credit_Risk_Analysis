@@ -12,7 +12,11 @@ The goal of this project is to build a classification model that can predict if 
 * Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
 ## Results
-Describe the balanced accuracy scores and the precision and recall scores of all six machine learning models.
+Describe the balanced accuracy scores and the precision and recall scores of all six machine learning models based on three different criteria. 
+1. Accuracy Score - a measure of how likely a model is to label all predictions correctly.
+2. Preciscion - a classifier's ability to accurately label samples and minimize false positives or negatives
+3. Recall (Sensitivity) - a classifier's ability to find all the positive or negative samples. In this scenario, the higher the recall, the less chance there is that a high risk applicant will be classified as low risk and vice versa.
+
 ### Naive Random Oversampling
 The first model was trained with data sampled using the naive random overampling technique. In random oversampling, instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced. Oversampling addresses class imbalance by duplicating or mimicking existing data.
 
