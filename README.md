@@ -14,6 +14,7 @@ The goal of this project is to build a classification model that can predict if 
 ## Results
 Describe the balanced accuracy scores and the precision and recall scores of all six machine learning models.
 ### Naive Random Oversampling
+The first model was trained with data sampled using the naive random overampling technique, which increases sampling from the minority class until both classes are balanced.
 ![naive](https://user-images.githubusercontent.com/73972332/113496730-5b7d6980-94b1-11eb-96cb-7b9c99a26ee6.png)
 
 ### SMOTE Oversampling
