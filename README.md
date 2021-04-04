@@ -36,9 +36,13 @@ In the next model, SMOTEENN is applied, instead of SMOTE. As with SMOTE, the min
 ![smoteenn](https://user-images.githubusercontent.com/73972332/113496732-5e785a00-94b1-11eb-8733-574ef8cbcb58.png)
 
 ### Balanced Random Forest Classifier
+We next tried two ensembles models, which improves overall model performance by combining multiple models to help improve accuracty and decrease variance. The Random Forests Classifier is composed of several small decision trees created from random sampling. By using the Balanced Random Forests, we oversample from the minority class to balance the classes.
+
 ![balanced random forest](https://user-images.githubusercontent.com/73972332/113496733-5fa98700-94b1-11eb-9d28-504c8249ab26.png)
 
 ### Easy Ensemble AdaBoost Classifier
+The final model that we generated for this analysis was built using an easy ensemble classifier with adaptive boosting, or AdaBoost. Using AdaBoost, a model is trained and then evaluated. The errors of the first model are given extra weight when the subsequent model is trained and so on until the error rate is minimized.
+
 ![easy ensemble](https://user-images.githubusercontent.com/73972332/113496734-60dab400-94b1-11eb-92f0-59db83589841.png)
 
 ## Summary
