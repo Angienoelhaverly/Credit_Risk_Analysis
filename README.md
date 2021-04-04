@@ -13,5 +13,11 @@ The goal of this project is to build a classification model that can predict if 
 
 ## Results
 Describe the balanced accuracy scores and the precision and recall scores of all six machine learning models.
+### Naive Random Oversampling
+### SMOTE Oversampling
+### Cluster Centroids (Undersampling)
+### SMOTEENN (Combination Sampling)
+### Balanced Random Forest Classifier
+### Easy Ensemble AdaBoost Classifier
 
 ## Summary
